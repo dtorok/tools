@@ -4,7 +4,7 @@ This is an ugly-ugly script that can open multiple iterm windows by a chef reque
 
 You can use it like
 ``` bash
-./iterm-ssh-by-knife/iterm-ssh-by-knife.scpt 'roles:my_ec2_role' 'cloud.public_hostname'
+osascript ./iterm-ssh-by-knife/iterm-ssh-by-knife.scpt 'roles:my_ec2_role' 'cloud.public_hostname'
 ```
 
 * the first parameter is the knife search QUERY, 
